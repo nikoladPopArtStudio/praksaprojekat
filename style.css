@@ -1,0 +1,85 @@
+.active 
+{
+	border: 8px solid #f3f3f3; /* Light grey */
+	border-top: 8px solid #f9322c; /* Blue */
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	animation: spin 2s linear infinite;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+
+@keyframes spin 
+{
+	0% 
+    {
+		transform: rotate(0deg);
+	}
+	100% 
+    {
+		transform: rotate(360deg);
+	}
+}
+
+.header-bar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: #f9322c;
+	z-index: 1;
+  }
+  
+.main
+{	
+	margin-top: 5%;
+	
+}
+
+@media (max-width: 1000) 
+{ 
+	.main
+	{	
+		margin-top: 10%;
+		max-width: 33%;
+	}
+}
+
+@media (max-width: 768px) 
+{ 
+	.main
+	{	
+		margin-top: 25%;
+		max-width: 33%;
+	}
+}
+
+
+.parent
+{
+    list-style-type: none; /* Remove bullets */
+    
+}
+
+.parent ul
+{
+	margin-bottom: 20px;
+}
+
+form
+{
+	
+	margin-left: 30px;
+}
+
+input[type=submit]
+{
+	margin-top: 10px;
+}
+
+h4 a
+{
+	text-decoration: none;
+}
